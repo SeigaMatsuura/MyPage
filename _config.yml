@@ -9,7 +9,7 @@ last_name: Matsuura
 contact_note: >
   Email: matsuura.seiga.656⭐s.kyushu-u.ac.jp　(replace ⭐ with @ when sending)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Seiga Matsuura — M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University (Hanada Laboratory).
+  Seiga Matsuura — Master's student, Department of Aeronautics and Astronautics, Kyushu University (Hanada Laboratory).
   Research on collision probability assessment and avoidance maneuver design for space debris in lunar orbits.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

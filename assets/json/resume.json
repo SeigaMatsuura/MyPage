@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Seiga Matsuura",
-    "label": "M.S. Student, Aeronautics and Astronautics",
+    "label": "Master's Student, Aeronautics and Astronautics",
     "image": "",
     "email": "matsuura.seiga.656⭐s.kyushu-u.ac.jp",
     "url": "https://seigamatsuura.github.io/MyPage/",
-    "summary": "M.S. student in the Department of Aeronautics and Astronautics at Kyushu University (Hanada Laboratory). Researching collision probability assessment and avoidance maneuver design for space debris in lunar orbits, and the generation and density propagation of fragment clouds with the NASA Standard Breakup Model.",
+    "summary": "Master's student in the Department of Aeronautics and Astronautics at Kyushu University (Hanada Laboratory). Researching collision probability assessment and avoidance maneuver design for space debris in lunar orbits, and the generation and density propagation of fragment clouds with the NASA Standard Breakup Model.",
     "location": {
       "address": "Ito Campus, Kyushu University",
       "city": "Fukuoka",
@@ -19,8 +19,8 @@
       "institution": "Kyushu University",
       "url": "https://www.kyushu-u.ac.jp/en/",
       "area": "Aeronautics and Astronautics (Hanada Laboratory)",
-      "studyType": "M.S.",
-      "startDate": "2026-04-01",
+      "studyType": "Master of Science",
+      "startDate": "2025-04-01",
       "endDate": "",
       "score": "",
       "courses": ["Collision probability assessment and avoidance maneuver design for lunar-orbit debris"]
@@ -29,9 +29,9 @@
       "institution": "Kyushu University",
       "url": "https://www.kyushu-u.ac.jp/en/",
       "area": "Faculty of Engineering (department to be updated)",
-      "studyType": "B.S.",
-      "startDate": "2022-04-01",
-      "endDate": "2026-03-31",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-04-01",
+      "endDate": "2025-03-31",
       "score": "",
       "courses": []
     }

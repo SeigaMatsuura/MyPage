@@ -60,13 +60,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/MyPage/projects/2_debris_cloud/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6E%65%75%74%72%69%6E%6F.%32%30%30%33.%30%31%33%30@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',

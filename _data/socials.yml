@@ -4,5 +4,5 @@
 email: neutrino.2003.0130@gmail.com # your email address
 scholar_userid: # TODO: your Google Scholar ID (the string after "user=" in your profile URL)
 orcid_id: # TODO: your ORCID iD (format: 0000-0000-0000-0000)
-github_username: SeigaMatsuura # your GitHub username
+# github_username: # hidden from the site by request (uncomment to show a GitHub icon)
 rss_icon: false # set to true to show the RSS icon

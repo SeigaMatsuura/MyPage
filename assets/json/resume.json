@@ -34,7 +34,7 @@
     {
       "institution": "九州大学 (Kyushu University)",
       "url": "https://www.kyushu-u.ac.jp/",
-      "area": "工学部 [学科名を後で追記]",
+      "area": "工学部（学科名は準備中・後日更新）",
       "studyType": "学士 (B.S.)",
       "startDate": "2022-04-01",
       "endDate": "2026-03-31",
@@ -44,18 +44,18 @@
   ],
   "publications": [
     {
-      "name": "[プレースホルダー] Collision Probability Assessment and Avoidance Maneuver Design for Spacecraft in Lunar Orbits",
-      "publisher": "執筆中",
+      "name": "準備中（後日更新）",
+      "publisher": "準備中（後日更新）",
       "releaseDate": "2026",
       "url": "",
-      "summary": "月周回軌道上の衛星とデブリの衝突確率評価および回避マヌーバ設計に関する研究。"
+      "summary": "月軌道デブリの衝突確率評価と回避マヌーバ設計に関する研究（準備中・後日更新）。"
     }
   ],
   "awards": [
     {
-      "title": "[受賞歴を後で追記]",
-      "date": "2026-01-01",
-      "awarder": "[授与機関]",
+      "title": "準備中（後日更新）",
+      "date": "2026",
+      "awarder": "準備中（後日更新）",
       "summary": ""
     }
   ],
@@ -70,7 +70,7 @@
       "name": "Programming",
       "level": "",
       "icon": "",
-      "keywords": ["Python", "MATLAB", "[使用言語を後で追記]"]
+      "keywords": ["Python", "MATLAB", "準備中（後日更新）"]
     }
   ],
   "languages": [
@@ -81,7 +81,7 @@
     },
     {
       "language": "English",
-      "fluency": "[レベルを後で追記]",
+      "fluency": "準備中（後日更新）",
       "icon": ""
     }
   ],

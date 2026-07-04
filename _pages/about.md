@@ -13,7 +13,7 @@ profile:
     <p>花田研究室</p>
     <p>福岡県福岡市西区元岡744</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # 論文が準備中のため非表示（実績追加時に true に）
 social: true # includes social icons at the bottom of the page
 
 announcements:

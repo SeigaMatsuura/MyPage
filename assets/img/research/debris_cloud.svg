@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#1b2a5e"/>
+      <stop offset="100%" stop-color="#0a1030"/>
+    </radialGradient>
+    <radialGradient id="dens" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f7768e" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#e0af68" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7aa2f7" stop-opacity="0.08"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <!-- Phase-portrait style axes -->
+  <g stroke="#3b4261" stroke-width="1">
+    <line x1="80" y1="520" x2="740" y2="520"/>
+    <line x1="80" y1="520" x2="80" y2="60"/>
+  </g>
+  <text x="735" y="548" fill="#787fa5" font-size="20" text-anchor="end">mean anomaly</text>
+  <text x="70" y="70" fill="#787fa5" font-size="20" transform="rotate(-90 70 70)" text-anchor="end">semi-major axis</text>
+  <!-- Density cloud stretching along phase space -->
+  <ellipse cx="410" cy="290" rx="270" ry="90" fill="url(#dens)" transform="rotate(-18 410 290)"/>
+  <ellipse cx="410" cy="290" rx="150" ry="48" fill="url(#dens)" transform="rotate(-18 410 290)" opacity="0.9"/>
+  <!-- Flow lines of the phase portrait -->
+  <g fill="none" stroke="#7aa2f7" stroke-width="1.5" opacity="0.65">
+    <path d="M 110 200 C 300 150 520 150 710 210"/>
+    <path d="M 110 300 C 300 245 520 245 710 305"/>
+    <path d="M 110 400 C 300 340 520 340 710 400"/>
+  </g>
+  <!-- Fragments -->
+  <g fill="#c0caf5">
+    <circle cx="330" cy="300" r="2.5"/><circle cx="390" cy="280" r="2"/><circle cx="450" cy="265" r="2.5"/>
+    <circle cx="500" cy="255" r="2"/><circle cx="290" cy="320" r="2"/><circle cx="545" cy="240" r="2.5"/>
+    <circle cx="425" cy="300" r="2"/><circle cx="365" cy="315" r="2"/>
+  </g>
+  <text x="400" y="560" text-anchor="middle" fill="#c0caf5" font-size="26">Fragment Cloud — Density Propagation</text>
+</svg>

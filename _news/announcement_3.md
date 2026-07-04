@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+title: 受賞 [タイトルを後で追記]
+date: 2026-02-01 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[賞の名称・授与機関を後で追記] :trophy:

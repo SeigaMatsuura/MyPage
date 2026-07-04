@@ -81,13 +81,6 @@ ninja.data = [{
           window.open("https://orcid.org/", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/SeigaMatsuura", "_blank");
-        },
-      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',

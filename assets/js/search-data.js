@@ -37,14 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/MyPage/cv/";
           },
-        },{id: "news-賞の名称-授与機関を後で追記-trophy",
-          title: '[賞の名称・授与機関を後で追記] :trophy:',
-          description: "",
-          section: "News",},{id: "news-ジャーナル名-論文題目を後で追記-page-with-curl",
-          title: '[ジャーナル名・論文題目を後で追記] :page_with_curl:',
-          description: "",
-          section: "News",},{id: "news-学会名-発表題目-開催地を後で追記-satellite",
-          title: '[学会名・発表題目・開催地を後で追記] :satellite:',
+        },{id: "news-準備中-後日更新-学会発表-論文採択-受賞などの活動を随時掲載します-satellite",
+          title: '準備中（後日更新）— 学会発表・論文採択・受賞などの活動を随時掲載します。 :satellite:',
           description: "",
           section: "News",},{id: "projects-月軌道デブリの衝突確率-回避マヌーバ",
           title: '月軌道デブリの衝突確率・回避マヌーバ',

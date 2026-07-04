@@ -11,50 +11,54 @@ ninja.data = [{
     },
   },{id: "nav-news",
           title: "news",
-          description: "最近の活動（学会発表・受賞・論文採択など）のタイムライン",
+          description: "A timeline of recent activities (conference talks, media appearances, milestones).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MyPage/news/";
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "業績一覧。_bibliography/papers.bib から自動生成されます（査読論文・国際会議・プレプリントの3分類）。",
+          description: "Auto-generated from _bibliography/papers.bib, grouped into journal papers and international conferences.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MyPage/publications/";
           },
         },{id: "nav-research",
           title: "research",
-          description: "研究テーマ一覧。カードをクリックすると各テーマの詳細ページ（図・アニメーション付き）に移動します。",
+          description: "Research topics. Click a card to open its detail page (with figures and animations).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MyPage/research/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "経歴・スキル一覧。assets/json/resume.json (JSON Resume 形式) から自動生成されます。",
+          description: "Education and skills, auto-generated from assets/json/resume.json (JSON Resume format).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MyPage/cv/";
           },
-        },{id: "news-準備中-後日更新-学会発表-論文採択-受賞などの活動を随時掲載します-satellite",
-          title: '準備中（後日更新）— 学会発表・論文採択・受賞などの活動を随時掲載します。 :satellite:',
+        },{id: "news-gave-a-presentation-at-the-9th-european-conference-on-space-debris-bonn-germany-satellite",
+          title: 'Gave a presentation at the 9th European Conference on Space Debris (Bonn, Germany)....',
           description: "",
-          section: "News",},{id: "projects-月軌道デブリの衝突確率-回避マヌーバ",
-          title: '月軌道デブリの衝突確率・回避マヌーバ',
-          description: "月周回軌道上のスペースデブリに対する衝突確率評価と、燃料効率を考慮した回避マヌーバの設計",
+          section: "News",},{id: "news-appeared-on-the-broadcast-of-makaizō-no-yoru-魔改造の夜-nhk-s-engineering-souped-up-competition-program-13th-night-13夜-tv",
+          title: 'Appeared on the broadcast of Makaizō no Yoru (魔改造の夜), NHK’s engineering “souped-up” competition...',
+          description: "",
+          section: "News",},{id: "news-yotsuba-kulover-a-cubesat-co-developed-by-students-of-kyushu-university-and-kyushu-institute-of-technology-was-successfully-deployed-into-orbit-from-the-iss-kibō-module-artificial-satellite",
+          title: 'YOTSUBA-KULOVER, a CubeSat co-developed by students of Kyushu University and Kyushu Institute of...',
+          description: "",
+          section: "News",},{id: "news-featured-in-makaizō-no-yoru-yoake-hen-魔改造の夜-夜明け編-dawn-edition-on-nhk-program-page-www-web-nhk-tv",
+          title: 'Featured in Makaizō no Yoru: Yoake-hen (魔改造の夜 夜明け編, “Dawn Edition”) on NHK. Program...',
+          description: "",
+          section: "News",},{id: "projects-collision-probability-amp-avoidance-in-lunar-orbits",
+          title: 'Collision Probability &amp;amp; Avoidance in Lunar Orbits',
+          description: "Collision probability assessment and fuel-efficient avoidance maneuver design for spacecraft against debris in lunar orbits",
           section: "Projects",handler: () => {
               window.location.href = "/MyPage/projects/1_lunar_debris/";
-            },},{id: "projects-破片雲の密度伝播",
-          title: '破片雲の密度伝播',
-          description: "NASA Standard Breakup Model による破片生成と、破片雲の密度分布の時間発展（位相肖像図・密度分布）",
+            },},{id: "projects-density-propagation-of-fragment-clouds",
+          title: 'Density Propagation of Fragment Clouds',
+          description: "Fragment generation with the NASA Standard Breakup Model and time evolution of the debris-cloud density distribution (phase portraits, density maps)",
           section: "Projects",handler: () => {
               window.location.href = "/MyPage/projects/2_debris_cloud/";
-            },},{id: "projects-sgp4-tle-による軌道追跡",
-          title: 'SGP4/TLE による軌道追跡',
-          description: "二行軌道要素 (TLE) と SGP4 伝播モデルを用いたロケット上段の軌道追跡・解析",
-          section: "Projects",handler: () => {
-              window.location.href = "/MyPage/projects/3_sgp4_tracking/";
             },},{
         id: 'social-email',
         title: 'email',

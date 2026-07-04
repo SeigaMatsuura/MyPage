@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: 研究テーマ一覧。カードをクリックすると各テーマの詳細ページ（図・アニメーション付き）に移動します。
+description: Research topics. Click a card to open its detail page (with figures and animations).
 nav: true
 nav_order: 4
 horizontal: false
@@ -15,7 +15,7 @@ horizontal: false
 
   <!-- Generate cards for each research topic -->
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

@@ -1,43 +1,43 @@
 ---
 layout: page
-title: 月軌道デブリの衝突確率・回避マヌーバ
-description: 月周回軌道上のスペースデブリに対する衝突確率評価と、燃料効率を考慮した回避マヌーバの設計
+title: Collision Probability & Avoidance in Lunar Orbits
+description: Collision probability assessment and fuel-efficient avoidance maneuver design for spacecraft against debris in lunar orbits
 img: assets/img/research/lunar_debris.svg
 importance: 1
 category: research
 related_publications: true
 ---
 
-月周回軌道（LLO・NRHO など）の利用が国際的に拡大する一方で、シスルナ空間には地球低軌道のような組織的なデブリ監視網が存在しません。本研究では、月軌道上のデブリと運用衛星の**接近解析・衝突確率評価**を行い、リスクが閾値を超える場合の**回避マヌーバ**を燃料消費（ΔV）最小の観点から設計します。
+As the use of lunar orbits (LLO, NRHO, etc.) expands internationally, cislunar space still lacks the organized debris-monitoring networks that exist in low Earth orbit. In this work I perform **conjunction analysis and collision probability assessment** between debris and operational spacecraft in lunar orbit, and design **avoidance maneuvers** that minimize propellant cost (ΔV) when the risk exceeds a threshold.
 
-主な取り組み:
+Main topics:
 
-- 月重力場・地球第三体摂動を考慮した軌道伝播に基づく接近解析
-- 位置誤差共分散を用いた衝突確率 (Pc) の計算
-- ΔV 最小化と回避後の再接近リスクを考慮したマヌーバ最適化
+- Conjunction analysis based on orbit propagation with lunar gravity and Earth third-body perturbations
+- Collision probability (Pc) computation using position-error covariances
+- Maneuver optimization for minimum ΔV while accounting for post-maneuver re-encounter risk
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/research/lunar_debris.svg" title="月軌道デブリの衝突確率評価と回避マヌーバの概念図" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/research/lunar_debris.svg" title="Conceptual diagram of collision probability assessment and avoidance maneuvers for lunar-orbit debris" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    月周回軌道上の衛星とデブリ雲の接近、および回避マヌーバ（緑矢印）の概念図。クリックで拡大できます。（実際の解析図は準備中・後日更新）
+    Conceptual diagram of a spacecraft encountering a debris cloud in lunar orbit and the avoidance maneuver (green arrow). Click to enlarge. (Actual analysis figures in preparation — to be updated.)
 </div>
 
-## 軌道アニメーション
+## Orbit animation
 
-回避マヌーバ前後の軌道変化のアニメーション（GIF／動画）を掲載予定です。準備中（後日更新）。
+This section will host animations (GIF / video) of the orbit changes before and after an avoidance maneuver. Place an mp4 in `assets/video/` or a GIF in `assets/img/` and swap in the code below.
 
 <!--
-GIF の場合:
+GIF:
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% raw %}{% include figure.liquid loading="eager" path="assets/img/research/avoidance_maneuver.gif" class="img-fluid rounded z-depth-1" zoomable=true %}{% endraw %}
     </div>
 </div>
 
-mp4 動画の場合:
+mp4 video:
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% raw %}{% include video.liquid path="assets/video/avoidance_maneuver.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}{% endraw %}
@@ -46,5 +46,5 @@ mp4 動画の場合:
 -->
 
 <div class="caption">
-    準備中（後日更新）
+    In preparation (to be updated).
 </div>

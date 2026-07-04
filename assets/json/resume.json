@@ -1,13 +1,13 @@
 {
   "basics": {
-    "name": "松浦 星河 / Seiga Matsuura",
+    "name": "Seiga Matsuura",
     "label": "M.S. Student, Aeronautics and Astronautics",
     "image": "",
     "email": "neutrino.2003.0130@gmail.com",
     "url": "https://seigamatsuura.github.io/MyPage/",
-    "summary": "九州大学大学院 航空宇宙工学専攻 修士課程（花田研究室）。月軌道スペースデブリの衝突確率評価と回避マヌーバ設計を研究。NASA Standard Breakup Model による破片雲の生成・密度伝播、SGP4/TLE を用いたロケット上段の軌道追跡にも従事。",
+    "summary": "M.S. student in the Department of Aeronautics and Astronautics at Kyushu University (Hanada Laboratory). Researching collision probability assessment and avoidance maneuver design for space debris in lunar orbits, and the generation and density propagation of fragment clouds with the NASA Standard Breakup Model.",
     "location": {
-      "address": "福岡県福岡市西区元岡744",
+      "address": "Ito Campus, Kyushu University",
       "city": "Fukuoka",
       "countryCode": "JP",
       "region": "Fukuoka"
@@ -22,20 +22,20 @@
   },
   "education": [
     {
-      "institution": "九州大学大学院 (Kyushu University)",
-      "url": "https://www.kyushu-u.ac.jp/",
-      "area": "航空宇宙工学専攻（花田研究室） / Aeronautics and Astronautics",
-      "studyType": "修士課程 (M.S.)",
+      "institution": "Kyushu University",
+      "url": "https://www.kyushu-u.ac.jp/en/",
+      "area": "Aeronautics and Astronautics (Hanada Laboratory)",
+      "studyType": "M.S.",
       "startDate": "2026-04-01",
       "endDate": "",
       "score": "",
-      "courses": ["月軌道デブリの衝突確率評価と回避マヌーバ設計"]
+      "courses": ["Collision probability assessment and avoidance maneuver design for lunar-orbit debris"]
     },
     {
-      "institution": "九州大学 (Kyushu University)",
-      "url": "https://www.kyushu-u.ac.jp/",
-      "area": "工学部（学科名は準備中・後日更新）",
-      "studyType": "学士 (B.S.)",
+      "institution": "Kyushu University",
+      "url": "https://www.kyushu-u.ac.jp/en/",
+      "area": "Faculty of Engineering (department to be updated)",
+      "studyType": "B.S.",
       "startDate": "2022-04-01",
       "endDate": "2026-03-31",
       "score": "",
@@ -44,18 +44,18 @@
   ],
   "publications": [
     {
-      "name": "準備中（後日更新）",
-      "publisher": "準備中（後日更新）",
+      "name": "Collision probability assessment and avoidance maneuver design for spacecraft in lunar orbits",
+      "publisher": "In preparation (to be updated)",
       "releaseDate": "2026",
       "url": "",
-      "summary": "月軌道デブリの衝突確率評価と回避マヌーバ設計に関する研究（準備中・後日更新）。"
+      "summary": "Research on collision probability assessment and avoidance maneuver design for spacecraft in lunar orbits."
     }
   ],
   "awards": [
     {
-      "title": "準備中（後日更新）",
+      "title": "To be updated",
       "date": "2026",
-      "awarder": "準備中（後日更新）",
+      "awarder": "To be updated",
       "summary": ""
     }
   ],
@@ -64,13 +64,13 @@
       "name": "Astrodynamics",
       "level": "",
       "icon": "",
-      "keywords": ["Orbit propagation", "SGP4/TLE", "Collision probability", "Maneuver design", "NASA Standard Breakup Model"]
+      "keywords": ["Orbit propagation", "Collision probability", "Avoidance maneuver design", "NASA Standard Breakup Model", "Cislunar dynamics"]
     },
     {
       "name": "Programming",
       "level": "",
       "icon": "",
-      "keywords": ["Python", "MATLAB", "準備中（後日更新）"]
+      "keywords": ["Python", "MATLAB", "To be updated"]
     }
   ],
   "languages": [
@@ -81,7 +81,7 @@
     },
     {
       "language": "English",
-      "fluency": "準備中（後日更新）",
+      "fluency": "To be updated",
       "icon": ""
     }
   ],

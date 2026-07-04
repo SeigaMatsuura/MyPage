@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: 九州大学大学院 航空宇宙工学専攻 修士課程（花田研究室） / M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University
+subtitle: M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University (Hanada Laboratory)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>九州大学 伊都キャンパス</p>
-    <p>花田研究室</p>
-    <p>福岡県福岡市西区元岡744</p>
+    <p>Hanada Laboratory</p>
+    <p>Ito Campus, Kyushu University</p>
+    <p>Fukuoka, Japan</p>
 
-selected_papers: false # 論文が準備中のため非表示（実績追加時に true に）
+selected_papers: false # hidden while publications are in preparation (set true once added)
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -25,13 +25,10 @@ latest_posts:
   enabled: false
 ---
 
-松浦星河（まつうら せいが / **Seiga Matsuura**）です。九州大学大学院 航空宇宙工学専攻 修士課程（花田研究室）に所属しています。
+I am **Seiga Matsuura**, an M.S. student in the Department of Aeronautics and Astronautics at Kyushu University (Hanada Laboratory).
 
-**月軌道スペースデブリの衝突確率評価と回避マヌーバ設計**を研究しています。持続可能なシスルナ空間の利用に向けて、月周回軌道上のデブリがミッションに与えるリスクを定量化し、燃料効率の良い回避運用を設計することが目標です。
+My research focuses on **collision probability assessment and avoidance maneuver design for space debris in lunar orbits**. Toward the sustainable use of cislunar space, my goal is to quantify the risk that debris in lunar orbit poses to missions and to design fuel-efficient avoidance operations.
 
-関連して、以下のテーマにも取り組んでいます。
+A closely related line of work is the **generation and density propagation of fragment clouds**, using the NASA Standard Breakup Model to model collision/explosion fragments and to analyze how the debris-cloud density distribution evolves over time.
 
-- **破片雲の生成と密度伝播** — NASA Standard Breakup Model による衝突・爆発破片の生成モデリングと、破片雲の密度分布の時間発展の解析
-- **SGP4/TLE による軌道追跡** — 二行軌道要素 (TLE) を用いたロケット上段など大型デブリの軌道決定・追跡
-
-研究内容の詳細は [Research]({{ '/research/' | relative_url }}) を、業績一覧は [Publications]({{ '/publications/' | relative_url }}) をご覧ください。
+See [Research]({{ '/research/' | relative_url }}) for details and [Publications]({{ '/publications/' | relative_url }}) for the full list.

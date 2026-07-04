@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 業績一覧。_bibliography/papers.bib から自動生成されます（査読論文・国際会議・プレプリントの3分類）。
+description: Auto-generated from _bibliography/papers.bib, grouped into journal papers and international conferences.
 nav: true
 nav_order: 3
 ---
@@ -15,16 +15,12 @@ nav_order: 3
 
 <div class="publications">
 
-<h2 class="bibliography-section">査読論文 / Journal Papers</h2>
+<h2 class="bibliography-section">Journal Papers</h2>
 
 {% bibliography --query @article %}
 
-<h2 class="bibliography-section">国際会議 / International Conferences</h2>
+<h2 class="bibliography-section">International Conferences</h2>
 
 {% bibliography --query @inproceedings %}
-
-<h2 class="bibliography-section">プレプリント / Preprints</h2>
-
-{% bibliography --query @misc %}
 
 </div>

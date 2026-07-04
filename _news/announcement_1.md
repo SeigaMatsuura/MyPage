@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 準備中（後日更新）
-date: 2026-07-04 09:00:00+0900
+title: Presented at the 9th European Conference on Space Debris
+date: 2025-04-04 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-準備中（後日更新）— 学会発表・論文採択・受賞などの活動を随時掲載します。 :satellite:
+Gave a presentation at the **9th European Conference on Space Debris** (Bonn, Germany). :satellite:

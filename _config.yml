@@ -7,15 +7,15 @@ first_name: Seiga
 middle_name:
 last_name: Matsuura
 contact_note: >
-  ご連絡はメールが確実です。 / Email is the most reliable way to reach me.
+  Email is the most reliable way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  松浦星河 (Seiga Matsuura) — 九州大学大学院 航空宇宙工学専攻 修士課程（花田研究室）。
-  月軌道デブリの衝突確率評価と回避マヌーバ設計の研究ページ。
+  Seiga Matsuura — M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University (Hanada Laboratory).
+  Research on collision probability assessment and avoidance maneuver design for space debris in lunar orbits.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: space debris, cislunar, lunar orbit, collision probability, avoidance maneuver, NASA standard breakup model, SGP4, TLE, astrodynamics # add your own keywords or leave empty
-lang: ja # the language of your site (for example: en, fr, cn, ru, etc.)
+keywords: space debris, cislunar, lunar orbit, collision probability, avoidance maneuver, NASA standard breakup model, fragment cloud, astrodynamics # add your own keywords or leave empty
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 # NOTE: 独自ドメイン運用に切り替える場合は url をそのドメインに変更し、baseurl を空にすること

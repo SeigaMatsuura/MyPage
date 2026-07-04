@@ -1,40 +1,40 @@
 ---
 layout: page
-title: 破片雲の密度伝播
-description: NASA Standard Breakup Model による破片生成と、破片雲の密度分布の時間発展（位相肖像図・密度分布）
+title: Density Propagation of Fragment Clouds
+description: Fragment generation with the NASA Standard Breakup Model and time evolution of the debris-cloud density distribution (phase portraits, density maps)
 img: assets/img/research/debris_cloud.svg
 importance: 2
 category: research
 related_publications: true
 ---
 
-衛星の破砕（衝突・爆発）で生じる大量の破片を 1 個ずつ追跡するのは計算コストが高いため、破片雲を**密度分布として連続体的に伝播**させるアプローチを研究しています。破片の初期分布は **NASA Standard Breakup Model** により生成し、軌道要素空間での密度の時間発展を解析します。
+Tracking every fragment produced by a satellite breakup (collision or explosion) individually is computationally expensive, so I study an approach that **propagates the fragment cloud as a density distribution** in a continuum sense. The initial fragment distribution is generated with the **NASA Standard Breakup Model**, and the time evolution of the density in orbital-element space is analyzed.
 
-主な取り組み:
+Main topics:
 
-- NASA Standard Breakup Model による破片のサイズ・速度増分 (ΔV) 分布の生成
-- 位相空間（軌道要素空間）における破片雲密度の伝播
-- 位相肖像図・密度分布図による破片雲の長期挙動の可視化
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="位相空間における破片雲の密度伝播" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    位相空間で引き伸ばされていく破片雲密度のイメージ。クリックで拡大できます。（位相肖像図・密度分布などの実際の図は準備中・後日更新）
-</div>
-
-複数の図を並べる場合は次のように 2〜3 カラムで配置できます（それぞれキャプション付き・クリック拡大対応）。
+- Generation of fragment size and velocity-increment (ΔV) distributions with the NASA Standard Breakup Model
+- Propagation of the fragment-cloud density in phase (orbital-element) space
+- Visualization of the long-term behavior via phase portraits and density-distribution maps
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="位相肖像図" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="密度分布" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="Density propagation of a fragment cloud in phase space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    左: 位相肖像図（準備中・後日更新）。右: 破片雲の密度分布（準備中・後日更新）。
+    Illustration of a fragment-cloud density being stretched in phase space. Click to enlarge. (Actual phase portraits / density maps in preparation — to be updated.)
+</div>
+
+Multiple figures can be arranged in two or three columns as below, each with its own caption and click-to-zoom.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="Phase portrait" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/research/debris_cloud.svg" title="Density distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Left: phase portrait (to be updated). Right: fragment-cloud density distribution (to be updated).
 </div>

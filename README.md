@@ -15,16 +15,16 @@ bundle exec jekyll serve
 
 ## よく編集するファイル
 
-| ファイル | 内容 |
-| --- | --- |
-| `_config.yml` | サイト全体の設定（タイトル・URL・OGP など） |
-| `_data/socials.yml` | メール・Google Scholar・ORCID・GitHub のリンク |
-| `_pages/about.md` | トップページ（自己紹介） |
-| `_news/*.md` | News のタイムライン項目（1件1ファイル） |
+| ファイル                   | 内容                                           |
+| -------------------------- | ---------------------------------------------- |
+| `_config.yml`              | サイト全体の設定（タイトル・URL・OGP など）    |
+| `_data/socials.yml`        | メール・Google Scholar・ORCID・GitHub のリンク |
+| `_pages/about.md`          | トップページ（自己紹介）                       |
+| `_news/*.md`               | News のタイムライン項目（1件1ファイル）        |
 | `_bibliography/papers.bib` | 業績リスト（BibTeX、エントリタイプで自動分類） |
-| `_projects/*.md` | Research の各テーマ詳細ページ |
-| `assets/json/resume.json` | CV（JSON Resume 形式） |
-| `_sass/_themes.scss` | テーマカラー（`--global-theme-color`） |
+| `_projects/*.md`           | Research の各テーマ詳細ページ                  |
+| `assets/json/resume.json`  | CV（JSON Resume 形式）                         |
+| `_sass/_themes.scss`       | テーマカラー（`--global-theme-color`）         |
 
 ## TODO（プレースホルダーの差し替え）
 

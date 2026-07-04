@@ -5,7 +5,7 @@ description: Fragment generation with the NASA Standard Breakup Model and time e
 img: assets/img/research/debris_cloud.svg
 importance: 2
 category: research
-related_publications: true
+related_publications: false
 ---
 
 Tracking every fragment produced by a satellite breakup (collision or explosion) individually is computationally expensive, so I study an approach that **propagates the fragment cloud as a density distribution** in a continuum sense. The initial fragment distribution is generated with the **NASA Standard Breakup Model**, and the time evolution of the density in orbital-element space is analyzed.

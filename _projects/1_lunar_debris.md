@@ -5,7 +5,7 @@ description: Collision probability assessment and fuel-efficient avoidance maneu
 img: assets/img/research/lunar_debris.svg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 As the use of lunar orbits (LLO, NRHO, etc.) expands internationally, cislunar space still lacks the organized debris-monitoring networks that exist in low Earth orbit. In this work I perform **conjunction analysis and collision probability assessment** between debris and operational spacecraft in lunar orbit, and design **avoidance maneuvers** that minimize propellant cost (ΔV) when the risk exceeds a threshold.

@@ -2,25 +2,19 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Auto-generated from _bibliography/papers.bib, grouped into journal papers and international conferences.
+description: Publications will be listed here.
 nav: true
 nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
+_To be updated._
 
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-<h2 class="bibliography-section">Journal Papers</h2>
-
-{% bibliography --query @article %}
-
-<h2 class="bibliography-section">International Conferences</h2>
-
-{% bibliography --query @inproceedings %}
-
-</div>
+<!--
+  When publications are ready, add BibTeX entries to _bibliography/papers.bib
+  and replace the "To be updated" line above with an auto-generated listing
+  (bib_search plus a bibliography tag), grouped by @article for Journal Papers
+  and @inproceedings for International Conferences. See the al-folio docs or
+  this file's git history for the exact snippet.
+-->

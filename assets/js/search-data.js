@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "Auto-generated from _bibliography/papers.bib, grouped into journal papers and international conferences.",
+          description: "Publications will be listed here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MyPage/publications/";

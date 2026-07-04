@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University (Hanada Laboratory)
+subtitle: M.S. student, Dept. of Aeronautics and Astronautics, Kyushu University (<a href='https://ssdlab.info' target='_blank' rel='noopener'>Hanada Laboratory</a>)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Hanada Laboratory</p>
+    <p><a href="https://ssdlab.info" target="_blank" rel="noopener">Hanada Laboratory (SSDLAB)</a></p>
     <p>Ito Campus, Kyushu University</p>
     <p>Fukuoka, Japan</p>
 
@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Seiga Matsuura**, an M.S. student in the Department of Aeronautics and Astronautics at Kyushu University (Hanada Laboratory).
+I am **Seiga Matsuura**, an M.S. student in the Department of Aeronautics and Astronautics at Kyushu University ([Hanada Laboratory](https://ssdlab.info)).
 
 My research focuses on **collision probability assessment and avoidance maneuver design for space debris in lunar orbits**. Toward the sustainable use of cislunar space, my goal is to quantify the risk that debris in lunar orbit poses to missions and to design fuel-efficient avoidance operations.
 
